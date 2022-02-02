@@ -2,7 +2,7 @@
 <div>
   <Header />
   <main>
-    hej
+    
   </main>
 
 </div>
@@ -18,7 +18,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
