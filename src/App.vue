@@ -2,7 +2,7 @@
 <div>
   <Header />
   <main>
-    
+    <Hero />
   </main>
 
 </div>
@@ -10,11 +10,13 @@
 
 <script>
 import Header from './components/Header/Header.vue'
+import Hero from './components/Hero/Hero.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Hero
   }
 }
 </script>
