@@ -1,11 +1,10 @@
 <template>
-<div>
-  <Header />
-  <main>
-    <Hero />
-  </main>
-
-</div>
+  <div>
+    <Header />
+    <main>
+      <Hero />
+    </main>
+  </div>
 </template>
 
 <script>
