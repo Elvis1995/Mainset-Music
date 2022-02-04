@@ -8,11 +8,16 @@ module.exports = {
       },
       zIndex: {
         '-1': '-1' // z-index: -1
-      }
+      },
+      colors: {
+        gray: {
+          standard: '#E9EAED',
+        },
+      },
     },
-  },
   variants: {
     extend: {},
   },
   plugins: [],
+  }
 }
