@@ -56,7 +56,6 @@
   } */
 	.container-small {
 		@apply px-16 m-auto;
-		max-width: 1600px !important;
 	}
 	.hover-extra-link-dark a,
 	.hover-extra-link-bright a {

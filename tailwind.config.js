@@ -18,6 +18,9 @@ module.exports = {
           standard: '#E9EAED',
         },
       },
+      spacing: {
+        '296': '18.5rem',
+      }
     },
   variants: {
     extend: {},

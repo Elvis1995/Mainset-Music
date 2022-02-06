@@ -1,8 +1,8 @@
 <template>
 	<section class="bg-gray-standard">
 		<div class="py-10 container-small">
-			<ul class="grid grid-cols-4 gap-12 shadow-effect">
-				<li v-for="product in products" :key="product.id" class="relative flex flex-col justify-center w-full px-5 m-0 duration-100 transform bg-white h-440 clip-path-img hover:scale-110">
+			<ul class="grid grid-cols-4 gap-20 shadow-effect">
+				<li v-for="product in products" :key="product.id" class="relative flex flex-col justify-center w-full p-5 m-0 duration-100 transform bg-white h-auto clip-path-img hover:scale-110">
 					<a :href="product.url" class="after-state">
 						<img :src="product.img">
 						<div class="mt-4">
