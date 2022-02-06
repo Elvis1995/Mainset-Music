@@ -2,9 +2,9 @@
   <section class="bg-gray-standard">
 		<div class="py-10 container-small">
 			<ul class="grid grid-cols-4 gap-12">
-				<li v-for="product in products" :key="product.id" class="w-full m-0 bg-white ">
+				<li v-for="product in products" :key="product.id" class="flex flex-col justify-center w-full px-5 m-0 bg-white h-96">
 					<a :href="product.url"><img :src="product.img"></a>
-					<p>{{ product.title }}</p>
+					<p class="text-base font-bold">{{ product.title }}</p>
 					<p>{{ product.price }}</p>
 				</li>
 			</ul>
