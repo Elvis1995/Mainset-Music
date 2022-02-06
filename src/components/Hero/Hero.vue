@@ -7,18 +7,18 @@
 			/>
 		</video>
 		<div class="absolute text-center transform top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
-			<h1>Mainset Music</h1>
-			<div class="flex justify-between">
-				<div class="p-10 text-white bg-black">
+			<h1 class="text-8xl font-bold">Mainset Music</h1>
+			<div class="flex justify-between mt-10 text-lg font-bold">
+				<div class="py-4 px-14 cursor-pointer text-white bg-red-600 clip-path transition-opacity duration-300 hover:bg-red-500 hover:opacity-80">
 					<a href="#">Shop</a>
 				</div>
-				<div>
+				<div class="py-4 px-10 cursor-pointer text-white bg-gray-800 clip-path transition-opacity duration-300 hover:bg-gray-700 hover:opacity-70">
 					<a href="#">Youtube</a>
 				</div>
-				<div>
+				<div class="py-4 px-10 cursor-pointer text-white bg-gray-800 clip-path transition-opacity duration-300 hover:bg-gray-700 hover:opacity-70">
 					<a href="#">Instagram</a>
 				</div>
-				<div>
+				<div class="py-4 px-10 cursor-pointer text-white bg-gray-800 clip-path transition-opacity duration-300 hover:bg-gray-700 hover:opacity-70">
 					<a href="#">Podcast</a>
 				</div>
 			</div>
