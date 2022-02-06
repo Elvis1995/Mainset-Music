@@ -2,11 +2,19 @@
 	<section class="bg-gray-standard">
 		<div class="py-10 container-small">
 			<ul class="grid grid-cols-4 gap-12">
-				<li v-for="product in products" :key="product.id" class="flex flex-col justify-center w-full px-5 m-0 bg-white h-96 clip-path-img">
-					<a :href="product.url"><img :src="product.img"></a>
-					<p class="text-base font-bold">{{ product.title }}</p>
+				<li v-for="product in products" :key="product.id" class="relative flex flex-col justify-center w-full px-5 m-0 duration-100 transform bg-white h-440 clip-path-img hover:scale-110">
+					<a :href="product.url" class="after-state">
+						<img :src="product.img">
+						<div class="mt-4">
+							<p class="text-base font-bold">{{ product.title }}</p>
+							<p class="text-base">${{ product.price }}</p>
+						</div>
+					</a>
 				</li>
 			</ul>
+			<div class="block py-4 mx-auto mt-12 text-white transition-opacity duration-300 bg-red-600 cursor-pointer w-max px-14 clip-path hover:bg-red-500 hover:opacity-80">
+				<a class="font-bold uppercase" href="#">Browse all products</a>
+			</div>
 		</div>
 	</section>
 </template>
@@ -29,7 +37,7 @@ export default {
 					title: "PARENTS EXPECTATIONS",
 					url: "https://mainset.creator-spring.com/listing/new-parents-expectations?product=389",
 					img: require("../../assets/Images/2.png"),
-					price: 15.0,
+					price: 15.99,
 				},
 				{
 					id: 3,
@@ -64,14 +72,14 @@ export default {
 					title: "SO YOU'RE A PRODUCER? HOW MUCH YOU EARN",
 					url: "https://mainset.creator-spring.com/listing/so-you-re-a-producer-how-much?product=389",
 					img: require("../../assets/Images/7.png"),
-					price: 15.0,
+					price: 15.99,
 				},
 				{
 					id: 8,
 					title: "NO IT DOESN'T SUCK!",
 					url: "https://mainset.creator-spring.com/listing/no-it-doesn-t-suck?product=389",
 					img: require("../../assets/Images/8.png"),
-					price: 15.0,
+					price: 15.99,
 				},
 			],
 		};

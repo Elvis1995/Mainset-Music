@@ -58,9 +58,6 @@
 		@apply px-16 m-auto;
 		max-width: 1600px !important;
 	}
-
-	@media (min-width: 768px) {
-	}
 	.hover-extra-link-dark a,
 	.hover-extra-link-bright a {
 		position: relative;
@@ -93,6 +90,25 @@
 	nav:first-child.hover-extra-link-bright a:not(.border-b-2):before {
 		bottom: -4px !important;
 	}
+}
+*{
+  --tw-shadow: 0 0 #0000;
+}
+.shadow-mp {
+  --tw-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(0,0,0,0);
+}
+*{
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+}
+.after-state:after {
+	@apply absolute w-full h-full inset-0;
+	content: ''
 }
 .clip-path {
 	clip-path: polygon(18px 0%, 100% 0%, calc(100% - 18px) 100%, 0% 100%);
