@@ -6,7 +6,7 @@
 				type="video/mp4"
 			/>
 		</video>
-		<div class="absolute text-center transform top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
+		<div class="w-4/5 md:w-auto absolute text-center transform top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
 			<h1 class="text-5xl sm:text-7xl md:text-8xl font-bold">Mainset Music</h1>
 			<div class="block md:flex justify-between mt-10 text-lg font-bold">
 				<HeroButton name="Shop" :shopButton="true" link="https://mainsetmusic.com" />
