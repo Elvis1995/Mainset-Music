@@ -3,7 +3,7 @@
 		<div class="container-small">
 			<div class="flex flex-col w-full md:flex-row bg-red-standard min-h-380 clip-path-img">
 				<div class="">
-					<img class="max-w-lg m-4 max-h-lg clip-path-img" src="../../assets/Images/edm.pod.jpg" />
+					<img class="w-full max-w-lg mt-4 p-4 sm:p-0 sm:m-4 max-h-lg clip-path-img" src="../../assets/Images/edm.pod.jpg" />
 				</div>
 				<div class="w-1/2 p-32">
 					<h2 class="mb-6 text-6xl font-bold text-white uppercase">Mainset Music Podcast</h2>
