@@ -9,7 +9,7 @@
 		<div class="absolute text-center transform top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
 			<h1 class="text-5xl sm:text-7xl md:text-8xl font-bold">Mainset Music</h1>
 			<div class="block md:flex justify-between mt-10 text-lg font-bold">
-				<HeroButton name="Shop" :redColor="true" />
+				<HeroButton name="Shop" :shopButton="true" link="https://mainsetmusic.com" />
 				<HeroButton name="Youtube" />
 				<HeroButton name="Instagram" />
 				<HeroButton name="Podcast" />
@@ -21,6 +21,7 @@
 <script>
 import HeroButton from "./HeroButton.vue";
 export default {
+	name: 'Hero',
 	components: {
 		HeroButton,
 	},
