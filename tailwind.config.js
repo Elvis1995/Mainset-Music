@@ -15,6 +15,9 @@ module.exports = {
         '750': '46.875rem', //  750px
         '440': '440px'
       },
+      minHeight: {
+        '380': '380px'
+      },
       zIndex: {
         '-1': '-1' // z-index: -1
       },
@@ -22,6 +25,9 @@ module.exports = {
         gray: {
           standard: '#E9EAED',
         },
+        red: {
+          standard: '#e5202b',
+        }
       },
       spacing: {
         '296': '18.5rem',
