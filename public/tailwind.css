@@ -55,7 +55,7 @@
     }
   } */
 	.container-small {
-		@apply px-16 m-auto;
+		@apply px-4 lg:px-16 m-auto;
 	}
 	.hover-extra-link-dark a,
 	.hover-extra-link-bright a {

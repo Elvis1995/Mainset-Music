@@ -1,7 +1,12 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   purge: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'xs': '440px',
+      ...defaultTheme.screens
+    },
     extend: {
       boxShadow: {
         mp: '0px 4px 12px rgba(0, 0, 0, 0.05)'
