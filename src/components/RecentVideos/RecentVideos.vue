@@ -1,8 +1,8 @@
 <template>
-  <section class="mb-12 bg-gray-standard">
+  <section class=" bg-gray-standard">
 		<div class="py-10 container-small">
 			<h2 class="mb-8 font-bold uppercase">Recent videos</h2>
-			<ul class="grid grid-cols-3 gap-11 shadow-effect">
+			<ul class="grid grid-cols-1 gap-11 shadow-effect xs:grid-cols-2 md:grid-cols-3">
 				<li v-for="video in videos" :key="video.id" class="relative flex flex-col justify-center w-full h-auto m-0 duration-100 transform hover:scale-110">
 					<a :href="video.url" class="after-state">
 						<img :src="video.img">
