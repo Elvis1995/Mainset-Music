@@ -105,3 +105,10 @@
 .clip-path-img {
 	clip-path: polygon(48px 0%, 100% 0, 100% calc(100% - 48px), calc(100% - 48px) 100%, 0 100%, 0% 48px);
 }
+
+.slide-menu {
+	-webkit-font-smoothing: antialiased;
+	/* to stop flickering of text in safari */
+	transform-origin: 0% 0%;
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
