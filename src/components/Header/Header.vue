@@ -49,7 +49,7 @@ export default {
     return {
       scrolled: false,
 			active: false,
-			test: false
+			mobile: false
     };
   },
 
@@ -69,13 +69,13 @@ export default {
 		},
 		checkScreenWidth() {
 			if(window.innerWidth < 1024) {
-					this.test = true
+					this.mobile = true
 			}
 
 			window.onresize = () => {
-				window.matchMedia('(max-width:1024px)').matches ? this.test = true : this.test = false
+				window.matchMedia('(max-width:1024px)').matches ? this.mobile = true : this.mobile = false
 			}
-			return this.test
+			return this.mobile
 		}
   },
 	mounted() {
